@@ -1,0 +1,1 @@
+for %%i in ("C:\Program Files\Ultraleap\OpenXR\*.offdll") do ren "%%i" "%%~ni.dll"
