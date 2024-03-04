@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File "C:\Users\xrlab\OneDrive\Documents\GitHub\RU-HumLab-XR\windows_config\varjo_experiment_mode_ps.ps1"

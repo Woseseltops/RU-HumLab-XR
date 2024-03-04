@@ -1,3 +1,2 @@
-for /f "tokens=2" %%a in ('query user ^| findstr /i "\<xrlab\>"') do (
-	logoff %%a
-)
+schtasks /run /tn "Log out xrlab user"
+powershell.exe -ExecutionPolicy Bypass -File ".\varjo_experiment_mode_ps.ps1"
